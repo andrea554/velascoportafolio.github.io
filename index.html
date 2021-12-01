@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--Fuente encabezados-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">  
+    
+    <!--Fuente 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Shadows+Into+Light+Two&family=Sriracha&display=swap" rel="stylesheet">
+    
+
+    <!--Texto Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vibur&display=swap" rel="stylesheet">
+
+    <!--aos animación-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--SASS-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Portafolio | Fátima Velasco</title>
+
+    <!--GRID reference-->
+    <link rel="stylesheet" href="grid.css">
+    <!--Grid2 Carusel-->
+    <link rel="stylesheet" href="grid2.css">
+
+    <!--Javascript-->
+    <link rel="stylesheet" href="javascript/script.js">
+
+    <!--Font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container px-3">
+      <a class="navbar-brand" href="#">
+        <div id="title">Portafolio   
+          <div id="div1" class="fa px-1"></div>
+        </div>
+      </a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse py-4" id="navbarNav">
+        <ul class="navbar-nav ml-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#inicio">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portafolio">Portafolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div id="inicio">
+  <div class="bloque">
+
+    <div class="row m-4" style="background-color: #f7efe9;" id="bordeR" data-aos="fade-up-left" data-aos-duration="600"> 
+      <section class="cuadro cuadro1 py-4" id="inicio">
+        <img class="img" src="imagenes/perfill.jpeg"  alt="Foto Andrea" width="100%" id="imgInicio">
+      </section>
+      <section class="cuadro cuadro2 py-3"> 
+       <ul style="list-style: none;">
+       <h1 id="title4" class="nombre">FÁTIMA ANDREA VELASCO</h1>
+       <li id="fuente">Ruta: Front End - HTML</li>
+       <li id="fuente">Tercer Año - Senior</li>
+       <li id="fuente">Edad: 17 años</li>
+       <li id="fuente">Promo 2021</li>
+     </ul> 
+      </section>
+     </div>
+  
+  </div>
+</div>
+
+
+<div id="skills">
+  
+  <div class="bloque">
+
+    <h1 id="title" style="text-align: center; color: #7c5d44; margin-bottom: 40px;" data-aos="fade-up">●●● Habilidades ●●●</h1>
+    
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel" data-aos="flip-left">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active pb-5">
+      <img src="imagenes/sass.png" alt="SASS" class="d-block imgCarusel">
+    </div>
+    <div class="carousel-item pb-5">
+      <img src="imagenes/css.png" alt="CSS" class="d-block imgCarusel">
+    </div>
+    <div class="carousel-item pb-5">
+      <img src="imagenes/html.png" alt="HTML" class="d-block imgCarusel">
+    </div>
+    <div class="carousel-item pb-5">
+      <img src="imagenes/excel.png" alt="Excel" class="d-block imgCarusel">
+    </div>
+    <div class="carousel-item pb-5">
+      <img src="imagenes/boots.png" alt="Bootstrap" class="d-block imgCarusel">
+    </div>
+    <div class="carousel-item pb-5">
+      <img src="imagenes/filmora.jpg" alt="New York" class="d-block imgCarusel">
+    </div>
+    <div class="carousel-item pb-5">
+      <img src="imagenes/audio.png" alt="Audacity" class="d-block imgCarusel">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+  </div>
+
+</div>
+
+<div id="portafolio">
+
+  <div class="bloque" id="fuente" data-aos="flip-down">
+    <h1 id="title4" style="text-align: center; color: #301703;">PORTAFOLIO</h1>
+    <h1 id="titulo" style="text-align: center;" class="pb-4">de Proyectos</h1>
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'All')" style="font-size: 14px;">All</button>
+      <button class="tablinks" onclick="openCity(event, 'First')" style="font-size: 14px;">First</button>
+      <button class="tablinks" onclick="openCity(event, 'Second')" style="font-size: 14px;">Second</button>
+      <button class="tablinks" onclick="openCity(event, 'Third')" style="font-size: 14px;">Third</button>
+    </div>
+    
+    <div id="All" class="tabcontent pt-5">
+      <h3 id="title" style="color: #795a42; text-align:center">●●● Todos los proyectos ●●●</h3>
+
+      <section id="galeria">
+        <div class="row pt-3 text-center">
+
+          <div class="col-12 col-lg-4">
+            <a title="Video | Pantalla Verde" href="https://drive.google.com/file/d/1JAmYkkV75PCDaeecStvuDm4VUWtfwgly/view?usp=sharing" target="_blank"><img src="imagenes/pantallaverde.png" alt="Pantalla Verde"/></a>
+            <p>Pantalla verde</p>         
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Edición video" href="https://drive.google.com/file/d/1vI2CP1wifbmckCuaZJrGqWSgcyAw9lqr/view?usp=sharing" target="_blank"><img src="imagenes/video.png" alt="Edición" /></a>
+            <p>Edición de vídeo</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Excel básico" href="https://docs.google.com/spreadsheets/d/1guv-ZkavT1L9X6BAnJiR9MqRVpB5Fy3N/edit?usp=sharing&ouid=111606174617950570976&rtpof=true&sd=true" target="_blank"><img src="imagenes/excelp.png" alt="Excel Básico"/></a>
+            <p>Excel Básico</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Escudo" href="https://drive.google.com/file/d/1d9titGdNlUrn2UIirLgWuPcGbbL2jWdG/view?usp=sharing" target="_blank"><img src="imagenes/logodesign.png" alt="Diseño"/></a>
+            <p>Diseño de escudo Ilustrator</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Invitación" href="https://drive.google.com/file/d/1QkEXK8acRdksa5ZfVnXiOCb5KEco5wsP/view?usp=sharing" target="_blank"><img src="imagenes/invitacion.png" alt="Diseño"/></a>
+            <p>Diseño - invitación Ilustrator</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Banner" href="https://drive.google.com/file/d/1VnzeX_0aRWo-MdLqUUx0BxE2FHCDgPVP/view?usp=sharing" target="_blank"><img src="imagenes/banner.png" alt="Diseño"/></a>
+            <p>Diseño de Banner | Ilustrator</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="EXPO" href="bit.ly/35OWEcM" target="_blank"><img src="imagenes/expo.png" alt="Sitio web Whim"/></a>
+            <p>Página web Expo 2020</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="EXPO" href="https://www.instagram.com/whiim_/" target="_blank"><img src="imagenes/insta.png" alt="Instagram Whim"/></a>
+            <p>Instagram Profesional Expo 2020</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Sitio web" href="https://andrea554.github.io/andreasitioweb.github.io/" target="_blank"><img src="imagenes/sitio.png" alt="Sitio web"/></a>
+            <p>Sitio web con boostrap</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Grid" href=" https://andrea554.github.io/grid.github.io/" target="_blank"><img src="imagenes/grid.png" alt="Grid B"/></a>
+            <p>Grid con boostrap</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Proyecto con bootstrap" href="https://andrea554.github.io/andrea554proyecto.github.io/" target="_blank"><img src="imagenes/proyecto.png" alt="Proyecto"/></a>
+            <p>Proyecto bootstrap</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Excel Dashboard" href="https://docs.google.com/spreadsheets/d/1awajIpMYcJneXP5YI7w78ZmfQ7nEb_Du/edit?usp=sharing&ouid=111606174617950570976&rtpof=true&sd=true" target="_blank"><img src="imagenes/dashboard.png" alt="Dashboard"/></a>
+            <p>Dashboard</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="SASS variables" href="https://andrea554.github.io/" target="_blank"><img src="imagenes/sass1.png" alt="SASS"/></a>
+            <p>Practica SASS/CSS</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="SASS anidación" href="https://andrea554.github.io/andreasass2.github.io/" target="_blank"><img src="imagenes/sass2.png" alt="SASS"/></a>
+            <p>Practica SASS anidación</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="SASS variables" href="https://andrea554.github.io/andrea554proyecto.github.io/" target="_blank"><img src="imagenes/tercero.png" alt="HTML"/></a>
+            <p>Proyecto ruta Frontend | HTML</p>
+          </div>
+
+
+        </div>
+      </section>
+
+    </div>
+    
+
+    <!--Primer año-->
+    <div id="First" class="tabcontent pt-5">
+      <h3 id="title" style="color: #795a42; text-align:center">●●● Primer año ●●●</h3>
+      
+      <section id="galeria">
+        <div class="row pt-3 text-center">
+
+          <div class="col-12 col-lg-4" data-aos="flip-right">
+            <a title="Video | Pantalla Verde" href="https://drive.google.com/file/d/1JAmYkkV75PCDaeecStvuDm4VUWtfwgly/view?usp=sharing" target="_blank"><img src="imagenes/pantallaverde.png" alt="Pantalla Verde"/></a>
+            <p>Pantalla verde</p>         
+          </div>
+
+          <div class="col-12 col-lg-4" >
+            <a title="Edición video" href="https://drive.google.com/file/d/1vI2CP1wifbmckCuaZJrGqWSgcyAw9lqr/view?usp=sharing" target="_blank"><img src="imagenes/video.png" alt="Edición" /></a>
+            <p>Edición de vídeo</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Excel básico" href="https://docs.google.com/spreadsheets/d/1guv-ZkavT1L9X6BAnJiR9MqRVpB5Fy3N/edit?usp=sharing&ouid=111606174617950570976&rtpof=true&sd=true" target="_blank"><img src="imagenes/excelp.png" alt="Excel Básico"/></a>
+            <p>Excel Básico</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Escudo" href="https://drive.google.com/file/d/1d9titGdNlUrn2UIirLgWuPcGbbL2jWdG/view?usp=sharing" target="_blank"><img src="imagenes/logodesign.png" alt="Diseño"/></a>
+            <p>Diseño de escudo Ilustrator</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Invitación" href="https://drive.google.com/file/d/1QkEXK8acRdksa5ZfVnXiOCb5KEco5wsP/view?usp=sharing" target="_blank"><img src="imagenes/invitacion.png" alt="Diseño"/></a>
+            <p>Diseño - invitación Ilustrator</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Banner" href="https://drive.google.com/file/d/1VnzeX_0aRWo-MdLqUUx0BxE2FHCDgPVP/view?usp=sharing" target="_blank"><img src="imagenes/banner.png" alt="Diseño"/></a>
+            <p>Diseño de Banner | Ilustrator</p>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+    
+
+    <!--Segundo año-->
+    <div id="Second" class="tabcontent pt-5">
+      <h3 id="title" style="color: #795a42; text-align:center">●●● Segundo año ●●●</h3>
+      
+      <section id="galeria">
+        <div class="row pt-3 text-center">
+
+          <div class="col-12 col-lg-4">
+            <a title="EXPO" href="bit.ly/35OWEcM" target="_blank"><img src="imagenes/expo.png" alt="Sitio web Whim"/></a>
+            <p>Página web Expo 2020</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="EXPO" href="https://www.instagram.com/whiim_/" target="_blank"><img src="imagenes/insta.png" alt="Instagram Whim"/></a>
+            <p>Instagram Profesional Expo 2020</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Sitio web" href="https://andrea554.github.io/andreasitioweb.github.io/" target="_blank"><img src="imagenes/sitio.png" alt="Sitio web"/></a>
+            <p>Sitio web con boostrap</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Grid" href=" https://andrea554.github.io/grid.github.io/" target="_blank"><img src="imagenes/grid.png" alt="Grid B"/></a>
+            <p>Grid con boostrap</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="Proyecto con bootstrap" href="https://andrea554.github.io/andrea554proyecto.github.io/" target="_blank"><img src="imagenes/proyecto.png" alt="Proyecto"/></a>
+            <p>Proyecto bootstrap</p>
+          </div>
+
+        </div>
+      </section>
+      
+    </div>
+    
+    <!--Tercer año-->
+    <div id="Third" class="tabcontent pt-5">
+      <h3 id="title" style="color: #795a42; text-align:center">●●● Tercer año ●●●</h3> 
+      <section id="galeria">
+        <div class="row pt-3 text-center">
+
+          <div class="col-12 col-lg-4">
+            <a title="Excel Dashboard" href="https://docs.google.com/spreadsheets/d/1awajIpMYcJneXP5YI7w78ZmfQ7nEb_Du/edit?usp=sharing&ouid=111606174617950570976&rtpof=true&sd=true" target="_blank"><img src="imagenes/dashboard.png" alt="Dashboard"/></a>
+            <p>Dashboard</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="SASS variables" href="https://andrea554.github.io/" target="_blank"><img src="imagenes/sass1.png" alt="SASS"/></a>
+            <p>Practica SASS/CSS</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="SASS anidación" href="https://andrea554.github.io/andreasass2.github.io/" target="_blank"><img src="imagenes/sass2.png" alt="SASS"/></a>
+            <p>Practica SASS anidación</p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <a title="SASS variables" href="https://andrea554.github.io/andrea554proyecto.github.io/" target="_blank"><img src="imagenes/tercero.png" alt="HTML"/></a>
+            <p>Proyecto ruta Frontend | HTML</p>
+          </div>
+
+
+        </div>
+      </section>
+
+    </div>
+    
+  </div>
+
+</div>
+
+
+  <br><br><br><br><br><br>
+
+  <footer>
+    <div class="container text-center" style="padding-top: 25px;">
+
+      <hr><hr>
+      <div style="font-size: 15px;" id="fuente">
+        Copyright © 2021 ¡Supérate! Raíces | Andrea Velasco
+      </div>
+      <hr style="width: 35%; margin: auto; margin-top: 15px;">
+      <div style="font-size: 14px;" id="fuente">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <p>fatima.velasco2021@raices.superate.org.sv</p>
+      </div>
+      <hr style="width: 30%; margin: auto; margin-top: 15px;">
+      <div style="font-size: 14px;" id="fuente">
+        <i class="fa fa-at" aria-hidden="true"></i>
+        <p>velasco.andrea045@gmail.com</p>
+      </div>
+      <hr>
+
+    </div>
+  </footer>
+
+
+
+<!-- jQuery and Bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+     <!-- Función jQuery para cerrar el navbar automáticamente -->
+<script>
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+</script>
+
+<!--Js para que el boton 'tabs' funcione-->
+<script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+
+  <!--Js para icono de portafolio (navbar)-->
+  <script>
+    function openfolder() {
+      var a;
+      a = document.getElementById("div1");
+      a.innerHTML = "&#xf114;";
+      setTimeout(function () {
+          a.innerHTML = "&#xf115;";
+        }, 1000);
+    }
+    openfolder();
+    setInterval(openfolder, 2000);
+    </script>
+
+    <!--aos js link (animación)-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+<script>
+  AOS.init();
+</script> 
+
+</body>
+</html>

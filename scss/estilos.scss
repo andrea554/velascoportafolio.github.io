@@ -1,0 +1,132 @@
+$w: #c09470;
+
+
+#bordeR{
+  border-radius: 35px;
+}
+
+
+#title{
+  font-family: 'Nerko One', cursive;
+}
+
+#title2{
+  font-family: 'Nerko One', cursive;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Sriracha', cursive;
+}
+
+#title3{
+  font-family: 'Caveat Brush', cursive;
+}
+
+#title4{
+  font-family: 'Concert One', cursive;
+  color: #502400;
+}
+#titulo{
+  font-family: 'Vibur', cursive;
+  color: #351a04;
+}
+
+#fuente{
+  font-family: 'Asap', sans-serif;
+}
+
+//galleria config//
+#galleria .col-lg-4{
+  margin: 0 !important;
+}
+
+#galeria img{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+
+nav{
+	background-color: $w;
+	margin: 0;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #502400;
+}
+
+#tamImg{
+  max-width: 100px;;
+	width: 100%;
+	height: auto;
+}
+
+//linktabs//
+.content {
+	margin-top: 2rem;
+}
+
+[data-content] {
+	display: none;
+}
+
+.active[data-content] {
+	display: block;
+}
+
+//Boton con tabs//@at-root/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 250px;
+  max-width: 120%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+footer{
+  background-color: $w;
+  height: 270px;
+  position: static;
+}

@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url('imagenes/gf8.jpg');
+    background-size: 100%;
+
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .bloque{
+    margin: auto;
+    width: 70%;
+    max-width: 1200px;
+    padding-top: 90px;
+  }
+
+  .cuadro {
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .cuadro1{
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 7px;
+  }
+  .cuadro2{
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 55px;
+    font-size: 14px;
+    float: none;
+  }
+  .img{
+    max-width: 250px; 
+    height: auto;
+    width: 100%;
+    border-radius: 100%;
+  }
+  .nombre{
+    font-size: 30px;
+  }
+  
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 1200px) {
+    .bloque{
+      width: 80%;
+    }
+    .cuadro1{
+      width: 20%;
+      margin-left: 65px;
+    }
+    .cuadro2{
+      width: 50%;
+      margin-top: 27px;
+    }
+  }
+
+  @media screen and (max-width: 1153px){
+    .bloque{
+      width: 80%;
+    }
+    .cuadro2{
+      font-size: 13.5px;
+    }
+    .nombre{
+      font-size: 28px;
+    }
+  }
+
+  @media screen and (max-width: 1091px){
+    .cuadro1{
+      margin-top: 4px;
+    }
+    .cuadro2{
+      font-size: 13.5px;
+    }
+    .nombre{
+      font-size: 25px;
+    }
+  }
+
+
+  @media screen and (max-width: 1016px){
+    .cuadro1{
+      margin-top: 1px;
+    }
+    .cuadro2{
+      font-size: 12.6px;
+    }
+    .nombre{
+      font-size: 18px;
+    }
+  }
+  @media  screen and (max-width: 991px) {
+    .bloque{
+      width: 85%;
+    }
+    .cuadro1{
+      margin-top: 5px;
+    }
+    .img{
+      height: auto;
+      width: 500;
+      border-radius: 100%;
+    }
+  }
+
+
+  @media screen and (max-width: 777px){
+    .bloque{
+        margin: auto;
+        width: 90%;
+        max-width: 1200px;
+      }
+      .cuadro {
+        float: right;
+        padding-top: 30px;
+        padding-bottom: 20px;
+      }
+    
+      .cuadro1{
+        width: 35%;
+        margin-left: 20px;
+        margin-top: 7px;
+      }
+      .cuadro2{
+        width: 45%;
+        margin-left: 0%;
+        margin-top: 65px;
+        font-size: 12.8px;
+      }
+      .img{
+        max-width: 250px; 
+        height: auto;
+        width: 100%;
+        border-radius: 100%;
+      }
+      .nombre{
+        font-size: 21.2px;
+      }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 747px) {
+    .bloque{
+        margin: auto;
+        max-width: 1200px;
+      }
+      .cuadro1{
+          width: 30%;
+      }
+      .cuadro2{
+        width: 60%;
+        margin-top: 40px;
+    }
+      .nombre {
+      font-size: 21px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .cuadro2{
+        margin-top: 30px;
+    }
+ }
+
+ @media screen and (max-width: 576px) { 
+    .cuadro1{
+        width: 30%;
+    }
+    .cuadro2{
+        margin-top: 30px;
+        font-size: 12.5;
+        width: 65%;
+    }
+    .nombre{
+        font-size: 19px;
+    }
+ }
+
+ @media screen and (max-width: 550px) {
+     .bloque{
+         width: 88%;
+     }
+     .cuadro1{
+         width: 30%;
+     }
+     .cuadro2{
+         width: 65%;
+     }
+ }
+
+ @media screen and (max-width: 510px) {
+    .bloque{
+        width: 78%;
+    }
+    .cuadro1{
+        width: 80%;
+        margin-left: 33px;
+    }
+    .cuadro2{
+        width: 85%;
+        margin-left: 33px;
+        margin-top: 8px;
+        font-size: 14.5px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .cuadro1{
+        width: 80%;
+        margin-left: 28px;
+    }
+    .cuadro2{
+        width: 90%;
+        margin-left: 22px;
+        margin-top: 0.5px;
+        font-size: 14.5px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .bloque{
+        width: 78%;
+    }
+    .cuadro1{
+        width: 80%;
+        margin-left: 28px;
+    }
+    .cuadro2{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 0.5px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .bloque{
+        width: 78%;
+    }
+    .cuadro1{
+        width: 80%;
+        margin-left: 28px;
+    }
+    .cuadro2{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 0%;
+        font-size: 14px;
+    }
+    .nombre{
+        font-size: 17px;
+        
+    }
+}
+
+
+@media screen and (max-width: 386px){
+    .bloque{
+        width: 78%;
+    }
+    .cuadro1{
+        width: 80%;
+        margin-left: 28px;
+    }
+    .cuadro2{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 0%;
+        font-size: 13px;
+    }
+    .nombre{
+        font-size: 17px;
+        
+    }
+}
+
+
